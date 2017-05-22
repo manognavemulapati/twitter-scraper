@@ -1,5 +1,5 @@
 # twitter-scraper
-Scrape Twitter for messages related to any word or phrase.
+Scrape Twitter for messages related to any word or phrase. This package uses the python-twitter wrapper for the Twitter API to scrape for messages, MongoDB to store messages, and Python's Natural Language Toolkit (nltk) to parse the messages.
 
 A TwitterScraper object has the following attributes:
 - constructor with string word or phrase
